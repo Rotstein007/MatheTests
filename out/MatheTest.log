@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.2.16)  16 FEB 2024 15:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.2.16)  16 FEB 2024 16:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -137,8 +137,8 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ./MatheTest.tex:30: Missing $ inserted.
 <inserted text> 
                 $
-l.30 ... [0,5] \rightarrow [-1,9], f(x)$ = 2 \cdot
-                                                   x - 1 eine Abbildung, Ber...
+l.30 ...das Urbild einer Menge {-1,0,1} (also $f$^
+                                                  {-1}({-1,0,1})).
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
@@ -150,76 +150,13 @@ l.31
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-
-Overfull \hbox (432.65123pt too wide) in paragraph at lines 30--31
-[]\OT1/cmr/bx/n/10.95 10 \OT1/cmr/m/n/10.95 Sei $\OML/cmm/m/it/10.95 f \OT1/cmr
-/m/n/10.95 : [0\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 5] \OMS/cmsy/m/n/10.95 
-! \OT1/cmr/m/n/10.95 [\OMS/cmsy/m/n/10.95 ^^@\OT1/cmr/m/n/10.95 1\OML/cmm/m/it/
-10.95 ; \OT1/cmr/m/n/10.95 9]\OML/cmm/m/it/10.95 ; f\OT1/cmr/m/n/10.95 (\OML/cm
-m/m/it/10.95 x\OT1/cmr/m/n/10.95 )$ = 2 $\OMS/cmsy/m/n/10.95 ^^A\OML/cmm/m/it/1
-0.95 x \OMS/cmsy/m/n/10.95 ^^@ \OT1/cmr/m/n/10.95 1\OML/cmm/m/it/10.95 eineAbbi
-ldung; BerechnenSie\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 a\OT1/cmr/m/n/10.95 
-)\OML/cmm/m/it/10.95 dasBilddermenge\OT1/cmr/m/n/10.95 [3\OML/cmm/m/it/10.95 ; 
-\OT1/cmr/m/n/10.95 4](\OML/cmm/m/it/10.95 also$\OT1/cmr/m/n/10.95 f$([3\OML/cmm
-/m/it/10.95 ; \OT1/cmr/m/n/10.95 4])\OML/cmm/m/it/10.95 und\OT1/cmr/m/n/10.95 (
-\OML/cmm/m/it/10.95 b\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 dasUrbildeinerMeng
-e[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 also$\OT1/cmr/m/n/10.95 f$[]([]))\OM
-L/cmm/m/it/10.95 :$ 
- []
-
-
-./MatheTest.tex:51: LaTeX Error: \mathbb allowed only in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.51     \textbf{8} Seien ( f : \mathbb
-                                       {Z} \rightarrow \mathbb{N} ), ( f(x) ...
-
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-./MatheTest.tex:51: Missing $ inserted.
+./MatheTest.tex:53: Missing $ inserted.
 <inserted text> 
                 $
-l.51 ...xtbf{8} Seien ( f : \mathbb{Z} \rightarrow
-                                                   \mathbb{N} ), ( f(x) = |x...
+l.53 ... ) und ( g ). Was liefern dann (c) ( h(\pi
+                                                  ) ) und (d) ( h(-5\frac{1}...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 51.
-
-./MatheTest.tex:51: Please use \mathaccent for accents in math mode.
-\add@accent ... \let \ignorespaces \relax \accent 
-                                                  #1 #2\egroup \ifmmode \els...
-l.51 ...e gibt immer die zu der gegebenen Zahl nä
-                                                  chst kleinere oder gleiche...
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 51.
-
-./MatheTest.tex:51: Please use \mathaccent for accents in math mode.
-\add@accent ... \let \ignorespaces \relax \accent 
-                                                  #1 #2\egroup \ifmmode \els...
-l.51 ...l nächst kleinere oder gleiche Zahl zurü
-                                                  ck).
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 52.
-
-./MatheTest.tex:52: Please use \mathaccent for accents in math mode.
-\add@accent ... \let \ignorespaces \relax \accent 
-                                                  #1 #2\egroup \ifmmode \els...
-l.52     (a) Wie kö
-                    nnen Sie die beiden Funktionen korrekt verketten? (b) Wa...
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
 
 ./MatheTest.tex:54: Missing $ inserted.
 <inserted text> 
@@ -228,63 +165,6 @@ l.54
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (43.86095pt too wide) in paragraph at lines 51--54
-[]\OT1/cmr/bx/n/10.95 8 \OT1/cmr/m/n/10.95 Seien ( f : Z $\OMS/cmsy/m/n/10.95 !
- \U/msb/m/n/10.95 N\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95
- (\OML/cmm/m/it/10.95 f\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x\OT1/cmr/m/n/10
-.95 ) = \OMS/cmsy/m/n/10.95 j\OML/cmm/m/it/10.95 x\OMS/cmsy/m/n/10.95 j\OT1/cmr
-/m/n/10.95 )\OML/cmm/m/it/10.95 und\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 g \O
-T1/cmr/m/n/10.95 : \U/msb/m/n/10.95 R \OMS/cmsy/m/n/10.95 ! \U/msb/m/n/10.95 Z\
-OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.9
-5 g\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x\OT1/cmr/m/n/10.95 ) := \OMS/cmsy/m
-/n/10.95 b\OML/cmm/m/it/10.95 x\OMS/cmsy/m/n/10.95 c\OT1/cmr/m/n/10.95 )((\OMS/
-cmsy/m/n/10.95 b\OML/cmm/m/it/10.95 x\OMS/cmsy/m/n/10.95 c\OT1/cmr/m/n/10.95 )\
-OML/cmm/m/it/10.95 istdieFloor \OMS/cmsy/m/n/10.95 ^^@
- []
-
-
-Overfull \hbox (1018.99094pt too wide) in paragraph at lines 51--54
-\OML/cmm/m/it/10.95 Funktion; siegibtimmerdiezudergegebenenZahln[]chstkleinereo
-dergleicheZahlzur[]ck\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.9
-5 (\OML/cmm/m/it/10.95 a\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 Wiek[]nnenSiedi
-ebeidenFunktionenkorrektverketten\OT1/cmr/m/n/10.95 ?(\OML/cmm/m/it/10.95 b\OT1
-/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 Warumgehtdassoundandersherumnicht\OT1/cmr/m
-/n/10.95 ?\OML/cmm/m/it/10.95 Sei\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 h\OT1/
-cmr/m/n/10.95 )\OML/cmm/m/it/10.95 diekorrektVerketteteFunktionvon\OT1/cmr/m/n/
-10.95 (\OML/cmm/m/it/10.95 f\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 und\OT1/cmr
-/m/n/10.95 (\OML/cmm/m/it/10.95 g\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 :Wasli
-eferndann\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 c\OT1/cmr/m/n/10.95 )(\OML/cmm
-/m/it/10.95 h\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 ^^Y\OT1/cmr/m/n/10.95 ))\O
-ML/cmm/m/it/10.95 und\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 d\OT1/cmr/m/n/10.9
-5 )(\OML/cmm/m/it/10.95 h\OT1/cmr/m/n/10.95 (\OMS/cmsy/m/n/10.95 ^^@\OT1/cmr/m/
-n/10.95 5[]))\OML/cmm/m/it/10.95 :$ 
- []
-
-./MatheTest.tex:55: Missing $ inserted.
-<inserted text> 
-                $
-l.55 ...on. (a) Wie lautet die Umkehrfunktion $f$^
-                                                  {-1} zu $f$. (b) Zeigen Si...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./MatheTest.tex:56: Missing $ inserted.
-<inserted text> 
-                $
-l.56 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (113.55736pt too wide) in paragraph at lines 55--56
-\OT1/cmr/m/n/10.95 Umkehrfunk-tion $\OML/cmm/m/it/10.95 f$$[]zu$\OT1/cmr/m/n/10
-.95 f$\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 b\OT1/cmr/m/
-n/10.95 )\OML/cmm/m/it/10.95 ZeigenSie; dassIhreUmkehrfunktionwirklichdieUmkehr
-funktionist:$ 
- []
 
 
 Overfull \hbox (27.4095pt too wide) in paragraph at lines 57--58
@@ -299,8 +179,8 @@ lle, dass die Aus-sage-formeln $\OML/cmm/m/it/10.95 F[]\OT1/cmr/m/n/10.95 (\OML
 ./MatheTest.tex:75: Missing $ inserted.
 <inserted text> 
                 $
-l.75 ...tbf{1} Wie wird eine binäre Relation ( R_
-                                                  1 \subset M \times M ) auf...
+l.75 ...enannt im Gegensatz zu einer Relation ( R_
+                                                  2 \subset N_1 \times N_2 )...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
@@ -311,16 +191,6 @@ l.76
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (261.66531pt too wide) in paragraph at lines 74--76
-[]\OT1/cmr/m/n/10.95 Test 3, Gruppe 3 \OT1/cmr/bx/n/10.95 1 \OT1/cmr/m/n/10.95 
-Wie wird eine bin^^?are Re-la-tion ( R$[] \OMS/cmsy/m/n/10.95 ^^Z \OML/cmm/m/it
-/10.95 M \OMS/cmsy/m/n/10.95 ^^B \OML/cmm/m/it/10.95 M\OT1/cmr/m/n/10.95 )\OML/
-cmm/m/it/10.95 aufderMenge\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 M\OT1/cmr/m/n
-/10.95 )\OML/cmm/m/it/10.95 genanntimGegensatzzueinerRelation\OT1/cmr/m/n/10.95
- (\OML/cmm/m/it/10.95 R[] \OMS/cmsy/m/n/10.95 ^^Z
- []
 
 
 Overfull \hbox (3.65906pt too wide) in paragraph at lines 95--96
@@ -354,7 +224,7 @@ ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/symbols/msbm10.pfb>
 Output written on "/home/felix/Dokumente/Studium/Mathematische Grundlagen/mathe
- tests/Mathe Test/out/MatheTest.pdf" (4 pages, 124571 bytes).
+ tests/Mathe Test/out/MatheTest.pdf" (4 pages, 123149 bytes).
 PDF statistics:
  62 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream

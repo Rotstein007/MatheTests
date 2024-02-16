@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.2.16)  16 FEB 2024 17:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.2.16)  16 FEB 2024 18:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -195,57 +195,100 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 17.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-./MatheTest.tex:40: Missing $ inserted.
+./MatheTest.tex:18: Missing $ inserted.
 <inserted text> 
                 $
-l.40 ...das Urbild einer Menge {-1,0,1} (also $f$^
+l.18     M_
+           1 \times M_2 \times M_3 \times \ldots \times M_m = \{ (x_1, x_2, ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./MatheTest.tex:19: Missing $ inserted.
+<inserted text> 
+                $
+l.19 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--19
+
+ []
+
+./MatheTest.tex:21: Missing $ inserted.
+<inserted text> 
+                $
+l.21     M_
+           1^c \cup M_2^c = (M_1 \setminus M_2)\newline
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./MatheTest.tex:23: Missing $ inserted.
+<inserted text> 
+                $
+l.23 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--23
+
+ []
+
+./MatheTest.tex:44: Missing $ inserted.
+<inserted text> 
+                $
+l.44 ...das Urbild einer Menge {-1,0,1} (also $f$^
                                                   {-1}({-1,0,1})).
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./MatheTest.tex:41: Missing $ inserted.
+./MatheTest.tex:45: Missing $ inserted.
 <inserted text> 
                 $
-l.41 
+l.45 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./MatheTest.tex:63: Missing $ inserted.
+./MatheTest.tex:67: Missing $ inserted.
 <inserted text> 
                 $
-l.63 ... ) und ( g ). Was liefern dann (c) ( h(\pi
+l.67 ... ) und ( g ). Was liefern dann (c) ( h(\pi
                                                   ) ) und (d) ( h(-5\frac{1}...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./MatheTest.tex:64: Missing $ inserted.
+./MatheTest.tex:68: Missing $ inserted.
 <inserted text> 
                 $
-l.64 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./MatheTest.tex:85: Missing $ inserted.
-<inserted text> 
-                $
-l.85 ...enannt im Gegensatz zu einer Relation ( R_
-                                                  2 \subset N_1 \times N_2 )...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./MatheTest.tex:86: Missing $ inserted.
-<inserted text> 
-                $
-l.86 
+l.68 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+./MatheTest.tex:89: Missing $ inserted.
+<inserted text> 
+                $
+l.89 ...enannt im Gegensatz zu einer Relation ( R_
+                                                  2 \subset N_1 \times N_2 )...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./MatheTest.tex:90: Missing $ inserted.
+<inserted text> 
+                $
+l.90 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+[2] [3]
 (/home/felix/Dokumente/Studium/Mathematische Grundlagen/mathe tests/Mathe Test/
 out/MatheTest.aux)
  ***********
@@ -256,11 +299,11 @@ L3 programming layer <2023-06-05>
 Here is how much of TeX's memory you used:
  1885 strings out of 477642
  29328 string characters out of 5829239
- 1876759 words of memory out of 5000000
+ 1884759 words of memory out of 5000000
  22414 multiletter control sequences out of 15000+600000
  519934 words of font info for 59 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 57i,13n,65p,431b,159s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,13n,65p,431b,160s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/felix/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600
 pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
@@ -273,7 +316,7 @@ public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
 ts/symbols/msbm10.pfb>
 Output written on "/home/felix/Dokumente/Studium/Mathematische Grundlagen/mathe
- tests/Mathe Test/out/MatheTest.pdf" (3 pages, 133482 bytes).
+ tests/Mathe Test/out/MatheTest.pdf" (3 pages, 133916 bytes).
 PDF statistics:
  69 PDF objects out of 1000 (max. 8388607)
  42 compressed objects within 1 object stream

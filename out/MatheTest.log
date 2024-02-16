@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.2.16)  16 FEB 2024 19:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.2.16)  16 FEB 2024 20:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -680,7 +680,97 @@ Underfull \hbox (badness 10000) in paragraph at lines 254--256
 
  []
 
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 2
+71.
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 271.
+
+./MatheTest.tex:271: Missing $ inserted.
+<inserted text> 
+                $
+l.271     C := \{ a + ib : a \in
+                                 \mathbb{R}, b \in \mathbb{R} \}\newline
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./MatheTest.tex:272: Missing $ inserted.
+<inserted text> 
+                $
+l.272 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 270--272
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--279
+
+ []
+
+./MatheTest.tex:281: Missing $ inserted.
+<inserted text> 
+                $
+l.281     \rvert
+                 z\rvert := \sqrt{a^2 + b^2}\newline
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./MatheTest.tex:282: Missing $ inserted.
+<inserted text> 
+                $
+l.282 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 280--282
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--285
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--288
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 289--295
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 296--298
+
+ []
+
 [5]
+Underfull \hbox (badness 10000) in paragraph at lines 300--302
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--305
+
+ []
+
+[6]
 (/home/felix/Dokumente/Studium/Mathematische Grundlagen/mathe tests/Mathe Test/
 out/MatheTest.aux)
  ***********
@@ -689,10 +779,10 @@ L3 programming layer <2023-06-05>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 1887 strings out of 477642
- 29386 string characters out of 5829239
+ 1906 strings out of 477642
+ 29718 string characters out of 5829239
  1876759 words of memory out of 5000000
- 22416 multiletter control sequences out of 15000+600000
+ 22432 multiletter control sequences out of 15000+600000
  519934 words of font info for 59 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  57i,13n,65p,431b,160s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -708,10 +798,10 @@ public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
 ts/symbols/msbm10.pfb>
 Output written on "/home/felix/Dokumente/Studium/Mathematische Grundlagen/mathe
- tests/Mathe Test/out/MatheTest.pdf" (5 pages, 139418 bytes).
+ tests/Mathe Test/out/MatheTest.pdf" (6 pages, 140124 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 46 compressed objects within 1 object stream
+ 78 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

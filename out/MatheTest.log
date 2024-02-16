@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.2.16)  16 FEB 2024 19:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.2.16)  16 FEB 2024 19:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -496,31 +496,141 @@ l.95 ... ) und ( g ). Was liefern dann (c) ( h(\pi
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./MatheTest.tex:96: Missing $ inserted.
+
+LaTeX Warning: Command \" invalid in math mode on input line 96.
+
+./MatheTest.tex:96: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.96     Lö
+            sung Nicht vorhanden. Ich freue mich wenn die jemand rein schick...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 96.
+
+./MatheTest.tex:96: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.96 ...eue mich wenn die jemand rein schicken kö
+                                                  nnte :)\newline
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+./MatheTest.tex:97: Missing $ inserted.
 <inserted text> 
                 $
-l.96 
+l.97 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./MatheTest.tex:117: Missing $ inserted.
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--97
+
+ []
+
+./MatheTest.tex:99: Missing $ inserted.
 <inserted text> 
                 $
-l.117 ...nannt im Gegensatz zu einer Relation ( R_
-                                                  2 \subset N_1 \times N_2 )...
+l.99     a) f^
+              {-1}(x) = x \cdot (\frac{-1}{5})\newline
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./MatheTest.tex:118: Missing $ inserted.
+
+LaTeX Warning: Command \" invalid in math mode on input line 100.
+
+./MatheTest.tex:100: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.100     Lö
+             sung nicht vollständig\newline
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 100.
+
+./MatheTest.tex:100: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.100     Lösung nicht vollstä
+                                ndig\newline
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+./MatheTest.tex:101: Missing $ inserted.
 <inserted text> 
                 $
-l.118 
+l.101 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-[2] [3] [4]
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--101
+
+ []
+
+./MatheTest.tex:120: Missing $ inserted.
+<inserted text> 
+                $
+l.120 ...nannt im Gegensatz zu einer Relation ( R_
+                                                  2 \subset N_1 \times N_2 )...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./MatheTest.tex:122: Missing $ inserted.
+<inserted text> 
+                $
+l.122 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--122
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 123--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--128
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--131
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--137
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--148
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--154
+
+ []
+
+[3] [4] [5]
 (/home/felix/Dokumente/Studium/Mathematische Grundlagen/mathe tests/Mathe Test/
 out/MatheTest.aux)
  ***********
@@ -529,10 +639,10 @@ L3 programming layer <2023-06-05>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 1885 strings out of 477642
- 29328 string characters out of 5829239
+ 1887 strings out of 477642
+ 29386 string characters out of 5829239
  1876759 words of memory out of 5000000
- 22414 multiletter control sequences out of 15000+600000
+ 22416 multiletter control sequences out of 15000+600000
  519934 words of font info for 59 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  57i,13n,65p,431b,160s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -548,10 +658,10 @@ public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
 ts/symbols/msbm10.pfb>
 Output written on "/home/felix/Dokumente/Studium/Mathematische Grundlagen/mathe
- tests/Mathe Test/out/MatheTest.pdf" (4 pages, 137190 bytes).
+ tests/Mathe Test/out/MatheTest.pdf" (5 pages, 138963 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 44 compressed objects within 1 object stream
+ 75 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

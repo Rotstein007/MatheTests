@@ -143,11 +143,17 @@
     Beruht auf der folgenden Äquivalenz:\\
     (B \Rightarrow C) \Leftrightarrow (\neg B \Leftarrow \neg C)\\
 
-    \textbf{7} Sei $f : {-2,-1,0,1,2,3} \rightarrow X, f(x) :=  \begin{cases}
+    \textbf{7} Sei $f : \{-2,-1,0,1,2,3\} \rightarrow X, f(x) :=  \begin{cases}
                                                                     -2 \cdot x & \text{, falls $x \leq 0$} \\
-                                                                    3 \cdot & \text{, sonst}
+                                                                    3 \cdot x & \text{, sonst}
     \end{cases}$ eine Abbildung. Bestimmen Sie die Menge $X$ so, dass $f$ bijektiv ist.\newline
-
+    $-2 \cdot -2 = 4$\\
+    $-2 \cdot -1 = 2$\\
+    $-2 \cdot 0 = 0$\\
+    $3 \cdot 1 = 3$\\
+    $3 \cdot 2 = 6$\\
+    $3 \cdot 3 = 9$\\
+    $X := \{4,2,0,3,6,9\}$\\
 
     \textbf{8} Seien \( f : \mathbb{Z} \rightarrow \mathbb{N} \), \( f(x) = |x| \) und \( g : \mathbb{R} \rightarrow \mathbb{Z} \), \( g(x) := \lfloor x \rfloor \) (\(\lfloor x \rfloor\) ist die Floor-Funktion, sie gibt immer die zu der gegebenen Zahl nächst kleinere oder gleiche Zahl zurück).
     (a) Wie können Sie die beiden Funktionen korrekt verketten? (b) Warum geht das so und andersherum nicht?

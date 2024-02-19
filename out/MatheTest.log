@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.2.16)  19 FEB 2024 19:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.2.16)  19 FEB 2024 20:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -343,69 +343,63 @@ or  <return>  to continue without it.
 <inserted text> 
                 $
 l.102 ...as Urbild einer Menge {-1,0,1} (also $f$^
-                                                  {-1}({-1,0,1})).\newline
+                                                  {-1}({-1,0,1})).\newline\n...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./MatheTest.tex:106: Missing $ inserted.
+<inserted text> 
+                $
+l.106     b)\\$ f^
+                  {-1}(-1) = 2x-1$ \\ $ -1 = 2x - 1$ $|$+1\\$ 0 = 2x |:2$\\$...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 103.
+Underfull \hbox (badness 10000) in paragraph at lines 102--109
 
-./MatheTest.tex:103: Please use \mathaccent for accents in math mode.
-\add@accent ... \let \ignorespaces \relax \accent 
-                                                  #1 #2\egroup \ifmmode \els...
-l.103 ...\textcolor{red}{Lösung Nicht vorhanden!}
-                                                  \newline
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
+ []
 
-./MatheTest.tex:104: Missing $ inserted.
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--109
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 112--114
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--117
+
+ []
+
+./MatheTest.tex:119: Missing $ inserted.
 <inserted text> 
                 $
-l.104 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--104
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--109
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--112
-
- []
-
-./MatheTest.tex:114: Missing $ inserted.
-<inserted text> 
-                $
-l.114     A \land
+l.119     A \land
                   B \text{ über die Wahrheitstabelle:}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-./MatheTest.tex:115: LaTeX Error: Bad math environment delimiter.
+./MatheTest.tex:120: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.115     \[
+l.120     \[
             
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./MatheTest.tex:124: Missing \endgroup inserted.
+./MatheTest.tex:129: Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.124     \]
+l.129     \]
             \newline\newline
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -414,22 +408,22 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-./MatheTest.tex:124: LaTeX Error: \begin{document} ended by \end{equation*}.
+./MatheTest.tex:129: LaTeX Error: \begin{document} ended by \end{equation*}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.124     \]
+l.129     \]
             \newline\newline
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./MatheTest.tex:124: Missing $ inserted.
+./MatheTest.tex:129: Missing $ inserted.
 <inserted text> 
                 $
-l.124     \]
+l.129     \]
             \newline\newline
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -437,375 +431,376 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./MatheTest.tex:124: Extra \endgroup.
+./MatheTest.tex:129: Extra \endgroup.
 <recently read> \endgroup 
                           
-l.124     \]
+l.129     \]
             \newline\newline
 Things are pretty mixed up, but I think the worst is over.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--125
+Underfull \hbox (badness 10000) in paragraph at lines 118--130
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--125
+Underfull \hbox (badness 10000) in paragraph at lines 118--130
 
  []
 
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 127--129
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--134
 
  []
 
-./MatheTest.tex:131: Missing $ inserted.
+./MatheTest.tex:136: Missing $ inserted.
 <inserted text> 
                 $
-l.131     A \land
+l.136     A \land
                   (B \lor C) \iff (A \land B) \lor (A \land C)\newline
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 132.
+LaTeX Warning: Command \" invalid in math mode on input line 137.
 
-./MatheTest.tex:132: Please use \mathaccent for accents in math mode.
+./MatheTest.tex:137: Please use \mathaccent for accents in math mode.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \ifmmode \els...
-l.132 ...color{orange}{Lösung nicht vollständig}
+l.137 ...color{orange}{Lösung nicht vollständig}
                                                   \newline
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 132.
+LaTeX Warning: Command \" invalid in math mode on input line 137.
 
-./MatheTest.tex:132: Please use \mathaccent for accents in math mode.
+./MatheTest.tex:137: Please use \mathaccent for accents in math mode.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \ifmmode \els...
-l.132 ...color{orange}{Lösung nicht vollständig}
+l.137 ...color{orange}{Lösung nicht vollständig}
                                                   \newline
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
 
-./MatheTest.tex:133: Missing $ inserted.
+./MatheTest.tex:138: Missing $ inserted.
 <inserted text> 
                 $
-l.133 
+l.138 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--133
+Underfull \hbox (badness 10000) in paragraph at lines 135--138
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--137
+Underfull \hbox (badness 10000) in paragraph at lines 140--142
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--143
+Underfull \hbox (badness 10000) in paragraph at lines 143--148
 
  []
 
-./MatheTest.tex:146: Missing $ inserted.
+./MatheTest.tex:151: Missing $ inserted.
 <inserted text> 
                 $
-l.146 ...) und ( g ). Was liefern dann (c) ( h(\pi
+l.151 ...) und ( g ). Was liefern dann (c) ( h(\pi
                                                   ) ) und (d) ( h(-5\frac{1}...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 147.
+LaTeX Warning: Command \" invalid in math mode on input line 152.
 
-./MatheTest.tex:147: Please use \mathaccent for accents in math mode.
+./MatheTest.tex:152: Please use \mathaccent for accents in math mode.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \ifmmode \els...
-l.147 ...\textcolor{red}{Lösung Nicht vorhanden!}
+l.152 ...\textcolor{red}{Lösung Nicht vorhanden!}
                                                   \newline
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
 
-./MatheTest.tex:148: Missing $ inserted.
+./MatheTest.tex:153: Missing $ inserted.
 <inserted text> 
                 $
-l.148 
+l.153 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--148
+Underfull \hbox (badness 10000) in paragraph at lines 149--153
 
  []
 
-./MatheTest.tex:150: Missing $ inserted.
+./MatheTest.tex:155: Missing $ inserted.
 <inserted text> 
                 $
-l.150     a) f^
+l.155     a) f^
                {-1}(x) = x \cdot (\frac{-1}{5})\newline
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 151.
+LaTeX Warning: Command \" invalid in math mode on input line 156.
 
-./MatheTest.tex:151: Please use \mathaccent for accents in math mode.
+./MatheTest.tex:156: Please use \mathaccent for accents in math mode.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \ifmmode \els...
-l.151 ...color{orange}{Lösung nicht vollständig}
+l.156 ...color{orange}{Lösung nicht vollständig}
                                                   \newline
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 151.
+LaTeX Warning: Command \" invalid in math mode on input line 156.
 
-./MatheTest.tex:151: Please use \mathaccent for accents in math mode.
+./MatheTest.tex:156: Please use \mathaccent for accents in math mode.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \ifmmode \els...
-l.151 ...color{orange}{Lösung nicht vollständig}
+l.156 ...color{orange}{Lösung nicht vollständig}
                                                   \newline
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
 
-./MatheTest.tex:152: Missing $ inserted.
+./MatheTest.tex:157: Missing $ inserted.
 <inserted text> 
                 $
-l.152 
+l.157 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--152
-
- []
-
-./MatheTest.tex:171: Missing $ inserted.
-<inserted text> 
-                $
-l.171 ...nannt im Gegensatz zu einer Relation ( R_
-                                                  2 \subset N_1 \times N_2 )...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./MatheTest.tex:173: Missing $ inserted.
-<inserted text> 
-                $
-l.173 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 171--173
+Underfull \hbox (badness 10000) in paragraph at lines 154--157
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 174--176
+./MatheTest.tex:176: Missing $ inserted.
+<inserted text> 
+                $
+l.176 ...nannt im Gegensatz zu einer Relation ( R_
+                                                  2 \subset N_1 \times N_2 )...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./MatheTest.tex:178: Missing $ inserted.
+<inserted text> 
+                $
+l.178 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--178
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 177--179
+Underfull \hbox (badness 10000) in paragraph at lines 179--181
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--182
+Underfull \hbox (badness 10000) in paragraph at lines 182--184
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--185
+Underfull \hbox (badness 10000) in paragraph at lines 185--187
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--188
+Underfull \hbox (badness 10000) in paragraph at lines 188--190
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--199
+Underfull \hbox (badness 10000) in paragraph at lines 191--193
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--205
+Underfull \hbox (badness 10000) in paragraph at lines 194--204
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--210
+Underfull \hbox (badness 10000) in paragraph at lines 207--210
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--210
+Underfull \hbox (badness 10000) in paragraph at lines 211--215
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--215
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 279--281
+Underfull \hbox (badness 10000) in paragraph at lines 284--286
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--284
+Underfull \hbox (badness 10000) in paragraph at lines 287--289
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--287
+Underfull \hbox (badness 10000) in paragraph at lines 290--292
 
  []
 
-./MatheTest.tex:291: Missing $ inserted.
+./MatheTest.tex:296: Missing $ inserted.
 <inserted text> 
                 $
-l.291 ...textbf{Induktionsschritt} - N \rightarrow
+l.296 ...textbf{Induktionsschritt} - N \rightarrow
                                                    N+1\newline
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./MatheTest.tex:292: Missing $ inserted.
+./MatheTest.tex:297: Missing $ inserted.
 <inserted text> 
                 $
-l.292 
+l.297 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 288--292
+Underfull \hbox (badness 10000) in paragraph at lines 293--297
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 288--292
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 293--295
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 296--298
+Underfull \hbox (badness 10000) in paragraph at lines 293--297
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 299--301
+Underfull \hbox (badness 10000) in paragraph at lines 298--300
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--309
+Underfull \hbox (badness 10000) in paragraph at lines 301--303
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 314--315
+Underfull \hbox (badness 10000) in paragraph at lines 304--306
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--314
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--320
 
  []
 
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 3
-25.
+30.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 325.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 330.
 
-./MatheTest.tex:325: Missing $ inserted.
+./MatheTest.tex:330: Missing $ inserted.
 <inserted text> 
                 $
-l.325     C := \{ a + ib : a \in
+l.330     C := \{ a + ib : a \in
                                  \mathbb{R}, b \in \mathbb{R} \}\newline
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./MatheTest.tex:326: Missing $ inserted.
+./MatheTest.tex:331: Missing $ inserted.
 <inserted text> 
                 $
-l.326 
+l.331 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--326
+Underfull \hbox (badness 10000) in paragraph at lines 329--331
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 327--330
+Underfull \hbox (badness 10000) in paragraph at lines 332--335
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--333
+Underfull \hbox (badness 10000) in paragraph at lines 336--338
 
  []
 
-./MatheTest.tex:335: Missing $ inserted.
+./MatheTest.tex:340: Missing $ inserted.
 <inserted text> 
                 $
-l.335     \rvert
+l.340     \rvert
                  z\rvert := \sqrt{a^2 + b^2}\newline
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./MatheTest.tex:336: Missing $ inserted.
+./MatheTest.tex:341: Missing $ inserted.
 <inserted text> 
                 $
-l.336 
+l.341 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 334--336
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 337--339
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 340--342
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 343--349
+Underfull \hbox (badness 10000) in paragraph at lines 339--341
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 350--352
+Underfull \hbox (badness 10000) in paragraph at lines 342--344
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 354--356
+Underfull \hbox (badness 10000) in paragraph at lines 345--347
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--359
+Underfull \hbox (badness 10000) in paragraph at lines 348--354
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 355--357
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 359--361
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--364
 
  []
 
@@ -820,7 +815,7 @@ L3 programming layer <2023-06-05>
 Here is how much of TeX's memory you used:
  2876 strings out of 477642
  41979 string characters out of 5829239
- 1876759 words of memory out of 5000000
+ 1879759 words of memory out of 5000000
  23382 multiletter control sequences out of 15000+600000
  520539 words of font info for 61 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -837,7 +832,7 @@ public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
 ts/symbols/msbm10.pfb>
 Output written on "/home/felix/Dokumente/Studium/Mathematische Grundlagen/mathe
- tests/Mathe Test/out/MatheTest.pdf" (7 pages, 149837 bytes).
+ tests/Mathe Test/out/MatheTest.pdf" (7 pages, 150233 bytes).
 PDF statistics:
  83 PDF objects out of 1000 (max. 8388607)
  52 compressed objects within 1 object stream

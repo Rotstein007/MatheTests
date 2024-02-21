@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.2.16)  21 FEB 2024 16:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.2.16)  21 FEB 2024 19:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -214,7 +214,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 )
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 18
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 20
 .
 
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
@@ -229,20 +229,20 @@ File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 out/MatheTest.aux)
 \openout1 = `MatheTest.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -292,57 +292,57 @@ LaTeX Font Info:    ... okay on input line 18.
 \makeMPintoPDFobject=\count282
 \everyMPtoPDFconversion=\toks27
 )
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 7
-0.
+2.
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 7
-0.
+2.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-70.
+72.
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-70.
+72.
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 70.
+(Font)              <10.95> on input line 72.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 70.
+(Font)              <8> on input line 72.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 70.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 70.
+(Font)              <6> on input line 72.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 72.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 70.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 72.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 70--72
+Underfull \hbox (badness 10000) in paragraph at lines 72--74
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--76
+Underfull \hbox (badness 10000) in paragraph at lines 75--78
 
  []
 
@@ -352,397 +352,407 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--76
 dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/sha
 re/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-m
 athsy.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 78--80
+Underfull \hbox (badness 10000) in paragraph at lines 80--82
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--86
+Underfull \hbox (badness 10000) in paragraph at lines 83--88
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--89
+Underfull \hbox (badness 10000) in paragraph at lines 89--91
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--92
+Underfull \hbox (badness 10000) in paragraph at lines 92--94
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--95
+Underfull \hbox (badness 10000) in paragraph at lines 95--97
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--98
+Underfull \hbox (badness 10000) in paragraph at lines 98--100
 
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-01.
+03.
 (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
-./MatheTest.tex:104: LaTeX Error: There's no line here to end.
+./MatheTest.tex:106: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.104     \end{itemize}\newline
+l.106     \end{itemize}\newline
                                
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--114
+Underfull \hbox (badness 10000) in paragraph at lines 108--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--114
+Underfull \hbox (badness 10000) in paragraph at lines 108--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--114
+Underfull \hbox (badness 10000) in paragraph at lines 108--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--114
+Underfull \hbox (badness 10000) in paragraph at lines 108--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--114
+Underfull \hbox (badness 10000) in paragraph at lines 108--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--114
+Underfull \hbox (badness 10000) in paragraph at lines 108--116
 
  []
 
 [2{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 117--120
+Underfull \hbox (badness 10000) in paragraph at lines 119--122
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--123
+Underfull \hbox (badness 10000) in paragraph at lines 123--125
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--140
+Underfull \hbox (badness 10000) in paragraph at lines 140--142
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--144
+Underfull \hbox (badness 10000) in paragraph at lines 143--146
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--149
+Underfull \hbox (badness 10000) in paragraph at lines 148--151
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 150--161
+Underfull \hbox (badness 10000) in paragraph at lines 152--163
 
  []
 
 [3{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 162--169
+Underfull \hbox (badness 10000) in paragraph at lines 164--171
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--173
+Underfull \hbox (badness 10000) in paragraph at lines 172--175
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--194
+Overfull \hbox (11.6079pt too wide) in paragraph at lines 176--177
+[]\T1/lmr/bx/n/10.95 10 \T1/lmr/m/n/10.95 Zei-gen Sie mit-tels Wahr-heits-ta-be
+l-le, dass die Aus-sa-ge-for-meln $\OML/lmm/m/it/10.95 F[]\OT1/lmr/m/n/10.95 (\
+OML/lmm/m/it/10.95 A; B; C\OT1/lmr/m/n/10.95 ) = \OML/lmm/m/it/10.95 A \OMS/lms
+y/m/n/10.95 _ \OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 B \OMS/lmsy/m/n/10.95 ^ \
+OML/lmm/m/it/10.95 C\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 und $\OML/lmm/m/it/
+10.95 F[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 A; B; C\OT1/lmr/m/n/10.95 ) =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--196
 
  []
 
-./MatheTest.tex:196: Missing $ inserted.
+./MatheTest.tex:198: Missing $ inserted.
 <inserted text> 
                 $
-l.196     \forall
+l.198     \forall
                   y \in Y , \exists x \in X : (x, y) \in R\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./MatheTest.tex:197: Missing $ inserted.
+./MatheTest.tex:199: Missing $ inserted.
 <inserted text> 
                 $
-l.197 
+l.199 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--197
+Underfull \hbox (badness 10000) in paragraph at lines 197--199
 
  []
 
-./MatheTest.tex:199: Missing $ inserted.
+./MatheTest.tex:201: Missing $ inserted.
 <inserted text> 
                 $
-l.199     \forall
+l.201     \forall
                   x,y \in M gilt: (x,y) \in R \rightarrow (y,x) \in R \newline
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./MatheTest.tex:200: Missing $ inserted.
+./MatheTest.tex:202: Missing $ inserted.
 <inserted text> 
                 $
-l.200 
+l.202 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--200
+Underfull \hbox (badness 10000) in paragraph at lines 200--202
 
  []
 
-./MatheTest.tex:202: Missing $ inserted.
+./MatheTest.tex:204: Missing $ inserted.
 <inserted text> 
                 $
-l.202 ...\(\in\) R und (y,z) \(\in\) R \rightarrow
+l.204 ...\(\in\) R und (y,z) \(\in\) R \rightarrow
                                                    (x,z) \(\in\) R\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-./MatheTest.tex:202: LaTeX Error: Bad math environment delimiter.
+./MatheTest.tex:204: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.202 ... und (y,z) \(\in\) R \rightarrow (x,z) \(
+l.204 ... und (y,z) \(\in\) R \rightarrow (x,z) \(
                                                   \in\) R\\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--203
+Underfull \hbox (badness 10000) in paragraph at lines 203--205
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--210
+Underfull \hbox (badness 10000) in paragraph at lines 206--212
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 211--213
+Underfull \hbox (badness 10000) in paragraph at lines 213--215
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--224
+Underfull \hbox (badness 10000) in paragraph at lines 216--226
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--230
+Underfull \hbox (badness 10000) in paragraph at lines 229--232
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--230
+Underfull \hbox (badness 10000) in paragraph at lines 229--232
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--235
+Underfull \hbox (badness 10000) in paragraph at lines 233--237
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--235
+Underfull \hbox (badness 10000) in paragraph at lines 233--237
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 304--306
+Underfull \hbox (badness 10000) in paragraph at lines 306--308
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--309
+Underfull \hbox (badness 10000) in paragraph at lines 309--311
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--312
+Underfull \hbox (badness 10000) in paragraph at lines 312--314
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 313--317
+Underfull \hbox (badness 10000) in paragraph at lines 315--319
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 313--317
+Underfull \hbox (badness 10000) in paragraph at lines 315--319
 
  []
 
-./MatheTest.tex:319: Missing $ inserted.
+./MatheTest.tex:321: Missing $ inserted.
 <inserted text> 
                 $
-l.319     \sum
+l.321     \sum
               \limits_{v=1}^{n} v = \(\frac{n \cdot (n+1)}{2}\)\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-./MatheTest.tex:319: LaTeX Error: Bad math environment delimiter.
+./MatheTest.tex:321: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.319     \sum\limits_{v=1}^{n} v = \(
+l.321     \sum\limits_{v=1}^{n} v = \(
                                       \frac{n \cdot (n+1)}{2}\)\\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 318--320
+Underfull \hbox (badness 10000) in paragraph at lines 320--322
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 321--323
+Underfull \hbox (badness 10000) in paragraph at lines 323--325
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--329
+Underfull \hbox (badness 10000) in paragraph at lines 326--331
 
  []
 
-./MatheTest.tex:336: Missing $ inserted.
+./MatheTest.tex:338: Missing $ inserted.
 <inserted text> 
                 $
-l.336     [3]_
+l.338     [3]_
               {11}+[9]_{11}\cdot[1]_{11} = [12]_{11} = [1]_{11}\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./MatheTest.tex:337: Missing $ inserted.
+./MatheTest.tex:339: Missing $ inserted.
 <inserted text> 
                 $
-l.337 
+l.339 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 335--337
+Underfull \hbox (badness 10000) in paragraph at lines 337--339
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 342--343
+Underfull \hbox (badness 10000) in paragraph at lines 344--345
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 352--354
+Underfull \hbox (badness 10000) in paragraph at lines 354--356
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 355--358
+Underfull \hbox (badness 10000) in paragraph at lines 357--360
 
  []
 
-./MatheTest.tex:360: Missing $ inserted.
+./MatheTest.tex:362: Missing $ inserted.
 <inserted text> 
                 $
-l.360     z \cdot
+l.362     z \cdot
                  $ $ w := (a + ib)$ $ \cdot $ $(c + id)\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./MatheTest.tex:361: Missing $ inserted.
+./MatheTest.tex:363: Missing $ inserted.
 <inserted text> 
                 $
-l.361 
+l.363 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 359--361
+Underfull \hbox (badness 10000) in paragraph at lines 361--363
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 362--364
+Underfull \hbox (badness 10000) in paragraph at lines 364--366
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 365--367
+Underfull \hbox (badness 10000) in paragraph at lines 367--369
 
  []
 
-./MatheTest.tex:370: Missing $ inserted.
+./MatheTest.tex:372: Missing $ inserted.
 <inserted text> 
                 $
-l.370     n_
+l.372     n_
             2 = $-i3$\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./MatheTest.tex:373: Missing $ inserted.
+./MatheTest.tex:375: Missing $ inserted.
 <inserted text> 
                 $
-l.373 
+l.375 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 368--373
+Underfull \hbox (badness 10000) in paragraph at lines 370--375
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 368--373
+Underfull \hbox (badness 10000) in paragraph at lines 370--375
 
  []
 
-./MatheTest.tex:378: Extra }, or forgotten $.
-l.378     \( P(z) = a_d (z-z_1}
+./MatheTest.tex:380: Extra }, or forgotten $.
+l.380     \( P(z) = a_d (z-z_1}
                                )^{\alpha_1}} (z-z_2})^{\alpha_2} \cdot... \c...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -750,8 +760,8 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./MatheTest.tex:378: Extra }, or forgotten $.
-l.378     \( P(z) = a_d (z-z_1})^{\alpha_1}}
+./MatheTest.tex:380: Extra }, or forgotten $.
+l.380     \( P(z) = a_d (z-z_1})^{\alpha_1}}
                                              (z-z_2})^{\alpha_2} \cdot... \c...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -759,8 +769,8 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./MatheTest.tex:378: Extra }, or forgotten $.
-l.378 ...( P(z) = a_d (z-z_1})^{\alpha_1}} (z-z_2}
+./MatheTest.tex:380: Extra }, or forgotten $.
+l.380 ...( P(z) = a_d (z-z_1})^{\alpha_1}} (z-z_2}
                                                   )^{\alpha_2} \cdot... \cdo...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -769,30 +779,22 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-Overfull \hbox (1.87703pt too wide) in paragraph at lines 374--380
-[]\T1/lmr/bx/n/10.95 7 \T1/lmr/m/n/10.95 Ver-voll-stän-di-gen Sie: (Fun-da-men-
-tal-satz der Al-ge-bra und Fak-to-ri-sie-rungs-satz) Es sei $\OML/lmm/m/it/10.9
-5 P\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 z\OT1/lmr/m/n/10.95 ) = [][] \OML/lm
-m/m/it/10.95 a[]z$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 374--380
+Underfull \hbox (badness 10000) in paragraph at lines 376--382
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 381--383
+Underfull \hbox (badness 10000) in paragraph at lines 383--385
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 385--387
+Underfull \hbox (badness 10000) in paragraph at lines 387--389
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 388--390
+Underfull \hbox (badness 10000) in paragraph at lines 390--392
 
  []
 
@@ -811,7 +813,7 @@ Here is how much of TeX's memory you used:
  24820 multiletter control sequences out of 15000+600000
  559298 words of font info for 67 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 57i,13n,65p,431b,180s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,13n,65p,431b,178s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></u
 sr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/p
@@ -822,7 +824,7 @@ nts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.p
 fb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
 Output written on "/home/felix/Dokumente/Studium/Mathematische Grundlagen/mathe
- tests/Mathe Test/out/MatheTest.pdf" (8 pages, 222480 bytes).
+ tests/Mathe Test/out/MatheTest.pdf" (8 pages, 222434 bytes).
 PDF statistics:
  108 PDF objects out of 1000 (max. 8388607)
  69 compressed objects within 1 object stream

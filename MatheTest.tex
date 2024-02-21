@@ -162,11 +162,14 @@
     \textbf{8} Seien \( f : \mathbb{Z} \rightarrow \mathbb{N} \), \( f(x) = |x| \) und \( g : \mathbb{R} \rightarrow \mathbb{Z} \), \( g(x) := \lfloor x \rfloor \) (\(\lfloor x \rfloor\) ist die Floor-Funktion, sie gibt immer die zu der gegebenen Zahl nächst kleinere oder gleiche Zahl zurück).
     (a) Wie können Sie die beiden Funktionen korrekt verketten? (b) Warum geht das so und andersherum nicht?
     Sei ( h ) die korrekt Verkettete Funktion von ( f ) und ( g ). Was liefern dann (c) ( $h(\pi)$ ) und (d) ( $h(-5\frac{1}{2})$ ).\newline
-    \textcolor{red}{Lösung Nicht vorhanden!}\newline
+    a) \( f \circ g(x) \)\\
+    b) Wenn man die beiden Funktionen anders herum verketten würde, so würde man den \textit{Ausgang} von f in den \textit{Eingang} von g leiten. Und das geht nicht von $\mathbb{N}$ nach $\mathbb{R}$, weil die Anzahl der Elemente in den Mengen unterschiedlich ist, da $\mathbb{N}$ abzählbar ist und $\mathbb{R}$ überabzählbar ist\\
+    c) 3\\
+    d) 6\\
 
     \textbf{9} Sei \( f : \mathbb{R} \rightarrow \mathbb{R} \), \( f(x) = 5x + 1 \) eine Funktion. (a) Wie lautet die Umkehrfunktion $f^{-1}$ zu $f$. (b) Zeigen Sie, dass Ihre Umkehrfunktion wirklich die Umkehrfunktion ist.\newline
-    a) $f^{-1}(x) = x \cdot (\frac{-1}{5})$\newline
-    \textcolor{orange}{Lösung nicht vollständig}\newline
+    a) $f^{-1}(x) = x \cdot (\frac{y-1}{5})$\\
+    b) \(f \circ f^{-1}(x) = f^{-1} \circ f(x)\)\\\
 
     \textbf{10} Zeigen Sie mittels Wahrheitstabelle, dass die Aussageformeln \(F_1(A,B,C) = A \lor (B \land C)\) und \(F_2(A,B,C) = (A \lor B) \land (A \lor C)\) äquivalent sind.
 
@@ -190,16 +193,19 @@
     {\itshape Homogene Relation}\newline
 
     \textbf{2} Was muss eine Relation \( R \subset X \times Y \) erfüllen, um rechtstotal zu sein?\newline
-    \textcolor{red}{Lösung Nicht vorhanden!}\newline
+    \forall y \in Y , \exists x \in X : (x, y) \in R\\
 
     \textbf{3} Was muss eine homogene Relation \( R \subset M^2 \) erfüllen, um symmetrisch zu sein?\newline
-    \textcolor{red}{Lösung Nicht vorhanden!}\newline
+    \forall x,y \in M gilt: (x,y) \in R \rightarrow (y,x) \in R \newline
 
-    \textbf{4} Was muss eine homogene Relation \( R \subset M^2 \) erfüllen, um transitiv zu sein?\newline
-    \textcolor{red}{Lösung Nicht vorhanden!}\newline
+    \textbf{4} Was muss eine homogene Relation \( R \subset M^2 \) erfüllen, um transitiv zu sein?\\
+    transitiv, wenn für alle x,y,z \(\in\) M gilt: (x,y) \(\in\) R und (y,z) \(\in\) R \rightarrow (x,z) \(\in\) R\\
 
     \textbf{5} Nennen Sie die Namen der Eigenschaft einer abelschen Gruppe (G, *).\newline
-    \textcolor{red}{Lösung Nicht vorhanden!}\newline
+    Kommutativ (macht Gruppe zur Abelsche Gruppe)\\
+    Assoziativ\\
+    Neutrales Element\\
+    Inverses Element\\
 
     \textbf{6} Was ist $S_n$ und wie ist es definiert?\newline
     \textcolor{red}{Lösung Nicht vorhanden!}\newline

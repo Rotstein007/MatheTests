@@ -206,9 +206,10 @@
     Assoziativ\\
     Neutrales Element\\
     Inverses Element\\
+    Total\\
 
     \textbf{6} Was ist $S_n$ und wie ist es definiert?\newline
-    \textcolor{red}{Lösung Nicht vorhanden!}\newline
+    Menge aller Permutationen von {1,\ldots, n}\\
 
     \textbf{7} Sei $M = {0,1,2,3}$. Bauen Sie eine Relation $R \subset M \times M$, sodass Ihre Relation {\itshape reflexiv} ist.\newline
 \begin{tabular}{c|cccc}
@@ -224,49 +225,49 @@ R := {(0,0) (1,1) (2,2) (3,3)}\newline
 
     \textbf{8} Seien \( M = \{0,-1,-2,-3,-4,-5\} \), \( N = \{0,1,2,3,4,5\} \) Mengen und
     \[ R = \{(0,0),(-1,1),(0,2),(-3,3),(0,4),(-5,5)\} \subset M \times N \]
-    eine Relation. Kann \( R \) dann auch der Graph einer Funktion sein? Falls ja, wie lautet dann die Definition der Funktion, und falls nein, warum nicht?\newline
-    Nein, allerdings: \textcolor{red}{Lösung Nicht vorhanden!}\newline
+    eine Relation. Kann \( R \) dann auch der Graph einer Funktion sein? Falls ja, wie lautet dann die Definition der Funktion, und falls nein, warum nicht?\\\\
+    Nein, da ein x Wert mehreren y Werten zugeschrieben wird, gilt keine Linkstotalität und somit ist R keine Funktion. Und da R keine Funktion ist kann auch kein Graph abgebildet werden.\\
 
     \textbf{9} Gegeben sind die beiden Permutationen \(\sigma_{1} = \begin{pmatrix} 1 & 2 & 3 \\ 3 & 1 & 2 \end{pmatrix}\) und \(\sigma_{2} = \begin{pmatrix} 1 & 2 & 3 \\ 3 & 2 & 1 \end{pmatrix}\) aus der Gruppe \( (S_3, \circ) \). Berechnen Sie (a) \(\sigma_{1} \circ \sigma_{2}\), (b) \(\sigma_{2} \circ \sigma_{1}\) sowie (c) \((\sigma_{1})^{-1}\) und (d) \((\sigma_{2})^{-1}\).
 \textbf{9} Gegeben sind die beiden Permutationen \(\sigma_{1} = \begin{pmatrix} 1 & 2 & 3 \\ 3 & 1 & 2 \end{pmatrix}\) und \(\sigma_{2} = \begin{pmatrix} 1 & 2 & 3 \\ 3 & 2 & 1 \end{pmatrix}\) aus der Gruppe \( (S_3, \circ) \). Berechnen Sie
-\newline\newline\newline Hier ist glaube ich noch irgendwo ein Fehler!\newline
+\\\\\\
 (a) \(\sigma_{1} \circ \sigma_{2}\):
+    \[
+        \begin{pmatrix}
+            1 & 2 & 3 \\
+            3 & 2 & 1 \\
+        \end{pmatrix}
+        \circ
+        \begin{pmatrix}
+            1 & 2 & 3 \\
+            3 & 1 & 2 \\
+        \end{pmatrix}
+        =
+        \begin{pmatrix}
+            1 & 2 & 3 \\
+            2 & 1 & 3 \\
+        \end{pmatrix}
+    \]
 
-\[
-    \begin{pmatrix}
-        1 & 2 & 3 \\
-        3 & 1 & 2 \\
-    \end{pmatrix}
-    \circ
-    \begin{pmatrix}
-        1 & 2 & 3 \\
-        3 & 2 & 1 \\
-    \end{pmatrix}
-    =
-    \begin{pmatrix}
-        1 & 2 & 3 \\
-        2 & 1 & 3 \\
-    \end{pmatrix}
-\]
 
 (b) \(\sigma_{2} \circ \sigma_{1}\):
 
-\[
-    \begin{pmatrix}
-        1 & 2 & 3 \\
-        3 & 2 & 1 \\
-    \end{pmatrix}
-    \circ
-    \begin{pmatrix}
-        1 & 2 & 3 \\
-        3 & 1 & 2 \\
-    \end{pmatrix}
-    =
-    \begin{pmatrix}
-        1 & 2 & 3 \\
-        2 & 1 & 3 \\
-    \end{pmatrix}
-\]
+    \[
+        \begin{pmatrix}
+            1 & 2 & 3 \\
+            3 & 1 & 2 \\
+        \end{pmatrix}
+        \circ
+        \begin{pmatrix}
+            1 & 2 & 3 \\
+            3 & 2 & 1 \\
+        \end{pmatrix}
+        =
+        \begin{pmatrix}
+            1 & 2 & 3 \\
+            1 & 3 & 2 \\
+        \end{pmatrix}
+    \]
 
 (c) \((\sigma_{1})^{-1}\):
 
@@ -277,7 +278,7 @@ R := {(0,0) (1,1) (2,2) (3,3)}\newline
 (d) \((\sigma_{2})^{-1}\):
 
 \[
-    (\sigma_{2})^{-1} = \begin{pmatrix} 1 & 2 & 3 \\ 3 & 2 & 1 \end{pmatrix}
+    (\sigma_{2})^{-1} = \begin{pmatrix} 1 & 2 & 3 \\ 1 & 2 & 3 \end{pmatrix}
 \]
 
 
@@ -301,10 +302,10 @@ R := {(0,0) (1,1) (2,2) (3,3)}\newline
 \section{Test4, Gruppe 2}
 
     \textbf{1} Sei \((K, \oplus, \odot)\) ein Körper und sei \(k \in K_0 := K \setminus \{0\}\). Wie bezeichnen / schreiben wir allgemein das Inverse von \(k\) bezüglich der Verknüpfung \(\odot\)?\newline
-    \textcolor{red}{Lösung Nicht vorhanden!}\newline
+    $k^{-1}$\\
 
     \textbf{2} Sei \((K, \oplus, \odot)\) ein Körper und sei \(k \in K\). Wie bezeichnen oder schreiben wir allgemein das Inverse von \(k\) bezüglich der Verknüpfung \(\oplus\)?\newline
-    \textcolor{red}{Lösung Nicht vorhanden!}\newline
+    $-k$\\
 
     \textbf{3} Unter welcher Bedingung ist der Restklassenring \(\mathbb{Z}_m\) ein Körper?\newline
     \textcolor{red}{Lösung Nicht vorhanden!}\newline

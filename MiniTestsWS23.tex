@@ -1,0 +1,396 @@
+%! Author = felix
+%! Date = 16.02.24
+
+% Preamble
+\documentclass[11pt]{article}
+
+% Packages
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage[margin=2cm]{geometry}
+\usepackage{xcolor}
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{mathtools}
+
+\setlength{\parindent}{0px}
+
+% Document
+\begin{document}
+
+    \section{Aufgabensammlung}\label{sec:aufgabensammlung}
+    Hier sind alle (für die Minitests) relevanten Aufgaben aus der Aufgabensammlung\\
+    \subsection{Mengen}\label{subsec:mengen}
+    \textbf{Wissen}
+    1.1.1 - 1.1.4 \& 1.1.7 - 1.1.10\\
+    \textbf{Rechnen}
+    1.2.1 - 1.2.5
+
+    \subsection{Abbildungen}\label{subsec:abbildungen}
+    \textbf{Wissen}
+    2.1.1 - 2.1.13\\
+    \textbf{Rechnen}
+    2.2.1 - 2.2.7
+    
+    \subsection{Aussagenlogik}\label{subsec:aussagenlogik}
+    \textbf{Wissen}
+    3.1.1 - 3.1.17\\
+    \textbf{Rechnen}
+    3.2.1 - 3.2.6
+
+    \subsection{Relationen}\label{subsec:relationen}
+    \textbf{Wissen}
+    4.1.1 - 4.1.15\\
+    \textbf{Rechnen}
+    4.2.1 - 4.2.10
+
+    \subsection{Algebraische Strukturen}\label{subsec:algebraische-strukturen}
+    \textbf{Wissen}
+    5.1.1 - 5.1.9 \& 5.1.11 - 5.1.20\\
+    \textbf{Rechnen}
+    5.2.3, 5.2.4
+
+    \subsection{Vollständige Induktion}\label{subsec:vollstandige-induktion}
+    \textbf{Wissen}
+    6.1.1 - 6.1.11\\
+    \textbf{Rechnen}
+    6.2.2 - 6.2.6 \& (6.2.1)
+
+    \subsection{Rechnen mit Komplexen Zahlen}\label{subsec:rechnen-mit-komplexen-zahlen}
+    \textcolor{orange}{\textbf{Inhalt fehlt!}}
+
+    \subsection{Mengen in der Komplexen Ebene}\label{subsec:mengen-in-der-komplexen-ebene}
+    \textcolor{orange}{\textbf{Inhalt fehlt!}}
+
+    \subsection{Folgen \textcolor{red}{\textbf{Nicht Bestandteil der Minitests!}}}\label{subsec:2}subsec:folgen-textcolor{red}{textbf{nicht-bestandteil-der-minitests!}
+
+    \subsection{Reihen \textcolor{red}{\textbf{Nicht Bestandteil der Minitests!}}}\label{subsec:}subsec:reihen-textcolor{red}{textbf{nicht-bestandteil-der-minitests!}
+
+
+    \section{Test1, Gruppe 1}\label{sec:test1-gruppe-1}
+
+    \textbf{1} Wie ist das Kartesische Produkt von $n$ Mengen $M_1, M_2, M_3, \dots, M_n$ definiert?\\
+    $M_1 \times M_2 \times M_3 \times \ldots \times M_m = \{ (x_1, x_2, x_3, \ldots, x_m) : x_1 \in M_1, x_2 \in M_2, x_3 \in M_3, \ldots, x_m \in M_m \}$\\
+
+    \textbf{2} Wie lauten die Gesetze von {\itshape De Morgan} für Mengen?\\
+    $M_1^c \cup M_2^c = (M_1 \cap M_2)^c$\\
+    $M_1^c \cap M_2^c = (M_1 \cup M_2)^c$\\
+
+
+    \textbf{3} Wie ist die \textbf{Potenzmenge} einer Menge $M$ definiert?\\
+    $P(M) \coloneqq 2^M \coloneqq \{ N : N \subset M \}$\\
+
+    \textbf{4} Wie sind (a) \textbf{Maximum} und (b) \textbf{Minimum} einer Menge $M \subset \mathbb{R}$ definiert? (c) Gibt es diese immer? (d) Warum ist es für die Definition relevant, dass $M \subset \mathbb{R}$?\\
+    a) $y \geq x$\\
+    b) $y \leq x$\\
+    c) Es muss nicht immer Maximum und Minimum geben, allerdings immer Supremum und Infimum.\\
+    d) \textcolor{red}{Lösung Nicht vorhanden!}\\
+
+    \textbf{5} Wann sind zwei Abbildungen $f(x)$ und $g(x)$ \textbf{gleich}?\\
+    Zwei Funktionen $f(x)$ und $g(x)$ sind gleich, wenn für jeden Wert von $x$ gilt, dass $f(x) = g(x)$.\\
+
+    \textbf{6} Was muss eine Abbildung $f : X \rightarrow Y $ erfüllen, damit sie \textbf{injektiv} ist?\\
+    Sie darf jedem Element im Definitionsbereich $X$ höchstens ein Element im Zielbereich $Y$ zuordnen.\\
+
+    \textbf{7} Seien $ M_1 = \{0,1,2\} $ und $ M_2 = \{-1, 0\} $. Berechnen Sie $ M_1 \times M_2 $, das kartesische Produkt.\\
+    $M1 \times M2 = \{(0,-1),(0,0),(1,-1),(1,0),(2,-1),(2,0)\}$ \\
+
+    \textbf{8} Sei $ M = \{0, 1, \triangle\} $. Berechnen Sie $ P(M) $.\\
+    $ P(M) $ = $\{\{0\}\{1\}\{\triangle\}\{0,1\}\{0,\triangle\}\{1,\triangle\}\{0,1,\triangle\}\{\}\}$\\
+
+    \textbf{9} Seien $ M_1 = \{a, b, 1\} $, $ M_2 = \{1, 2, c\} $ und $ M = \{0, 1, 2, a, b, c\} $. Berechnen Sie:
+    \begin{itemize}
+        \item $ M_1 \cup M_2 = {a,b,c,1,2}$
+        \item $ M_1 \setminus M_2 = {a,b}$
+        \item $ M_2 \cap M = {1,2,c}$
+    \end{itemize}\\
+
+    \textbf{10} Sei $f : [0,5] \rightarrow [-1,9], f(x) = 2 \cdot x - 1$ eine Abbildung, Berechnen Sie (a) das Bild der Menge [3, 4] (also $f$([3,4]) und (b) das Urbild einer Menge {-1,0,1} (also $f^{-1}({-1,0,1})$).\\\\
+    $f(x) = 2x - 1$ \\
+    $f(3) = (2 \cdot 3) - 1 = 5 \quad \quad f(4) = (2 \cdot 4) - 1 = 7$ \\\\
+    a) \text{ Bildmenge} = [5,7]\\\\
+    b)\\$ f^{-1}(-1) = 2x-1$ \\ $ -1 = 2x - 1$ $|$+1\\$ 0 = 2x |:2$\\$x = 0$\\\\
+    $ f^{-1}(0) = 2x-1$ \\ $ 0 = 2x - 1 |+1$\\ $ 1 = 2x |:2$\\$ 0,5 = x$\\\\
+    $ f^{-1}(1) = 2x-1$ \\ $ 1 = 2x - 1 |+1$\\ $ 2 = 2x |:2$\\$1 = x$\\\\
+    $f^{-1}((-1,0,1)) = (0;0,5;1)$
+
+    \section{Test2, Gruppe 2}\label{sec:test2-gruppe-2}
+
+    \textbf{1} (a) Wie ist die \textbf{identische Abbildung} auf einer Menge $X$ definiert? (b) Welche zusätzliche Bedingung wird an die Menge $X$ gestellt?\\
+    a) $\text{id}(x) \coloneqq \text{id}_X(x) \coloneqq x \quad (x \in X)$\\
+    b) Es handelt sich um eine nicht leere Menge. $x(x \in X)$\\
+
+    \textbf{2} Existiert zu jeder Abbildung $f : X \rightarrow Y $ eine Umkehrabbildung? Begründen Sie ihre Antwort!\\
+    Nein, die Funktion muss bijektiv sein, um eine Umkehrabbildung zu bilden. Es könnten sonst Definitionslücken entstehen.\\
+
+    \textbf{3} Wie ist die Konjunktion zweier Aussagen $A$ und $B$ definiert?\\
+    $A \land B$ \text{ über die Wahrheitstabelle:}
+    \[
+        \begin{array}{c|c|c}
+            A & B & A \land B \\
+            \hline
+            \text{f} & \text{f} & \text{f} \\
+            \text{f} & \text{w} & \text{f} \\
+            \text{w} & \text{f} & \text{f} \\
+            \text{w} & \text{w} & \text{w} \\
+        \end{array}
+    \]\\\\
+
+
+    \textbf{4} Wann sind zwei Aussageformeln $F_1, F_2$ nach der Definition \textbf{gleichwertig}?\\
+    Zwei Aussageformeln $F_1$ und $F_2$ heißen gleichwertig, wenn für alle möglichen Besetzungen von Wahrheitswerten in $F_1$ und $F_2$ die Aussage $F_1 \Leftrightarrow F_2$ immer wahr ist.\\
+
+    \textbf{5} Wie lauten die \textbf{Distributivgesetze} der Aussagenlogik?\\
+    $A \land (B \lor C) \iff (A \land B) \lor (A \land C)$\\
+    $A \lor (B \land C) \iff (A \lor B) \land (A \lor C)$\\
+
+
+    \textbf{6} Auf welcher Aussagenlogischen Äquivalenz beruht das Beweisprinzip der Kontraposition?\\
+    Beruht auf der folgenden Äquivalenz:\\
+    $(B \Rightarrow C) \Leftrightarrow (\neg B \Leftarrow \neg C)$\\
+
+    \textbf{7} Sei $f : \{-2,-1,0,1,2,3\} \rightarrow X, f(x) \coloneqq  \begin{cases}
+                                                                    -2 \cdot x & \text{, falls $x \leq 0$} \\
+                                                                    3 \cdot x & \text{, sonst}
+    \end{cases}$ eine Abbildung. Bestimmen Sie die Menge $X$ so, dass $f$ bijektiv ist.\\
+    $-2 \cdot -2 = 4$\\
+    $-2 \cdot -1 = 2$\\
+    $-2 \cdot 0 = 0$\\
+    $3 \cdot 1 = 3$\\
+    $3 \cdot 2 = 6$\\
+    $3 \cdot 3 = 9$\\
+    $X \coloneqq \{4,2,0,3,6,9\}$\\
+
+    \textbf{8} Seien $ f : \mathbb{Z} \rightarrow \mathbb{N} $, $ f(x) = |x| $ und $ g : \mathbb{R} \rightarrow \mathbb{Z} $, $ g(x) \coloneqq \lfloor x \rfloor $ ($\lfloor x \rfloor$ ist die Floor-Funktion, sie gibt immer die zu der gegebenen Zahl nächst kleinere oder gleiche Zahl zurück).
+    (a) Wie können Sie die beiden Funktionen korrekt verketten? (b) Warum geht das so und andersherum nicht?
+    Sei ( h ) die korrekt Verkettete Funktion von ( f ) und ( g ). Was liefern dann (c) ( $h(\pi)$ ) und (d) ( $h\left(-5\frac{1}{2}\right)$ ).\\
+    a) $ f \circ g(x) $\\
+    b) Wenn man die beiden Funktionen anders herum verketten würde, so würde man den \textit{Ausgang} von f in den \textit{Eingang} von g leiten. Und das geht nicht von $\mathbb{N}$ nach $\mathbb{R}$, weil die Anzahl der Elemente in den Mengen unterschiedlich ist, da $\mathbb{N}$ abzählbar ist und $\mathbb{R}$ überabzählbar ist\\
+    c) 3\\
+    d) 6\\
+
+    \textbf{9} Sei $ f : \mathbb{R} \rightarrow \mathbb{R} $, $ f(x) = 5x + 1 $ eine Funktion. (a) Wie lautet die Umkehrfunktion $f^{-1}$ zu $f$. (b) Zeigen Sie, dass Ihre Umkehrfunktion wirklich die Umkehrfunktion ist.\\
+    a) $f^{-1}(x) = x \cdot \left(\frac{y-1}{5}\right)$\\
+    b) $f \circ f^{-1}(x) = f^{-1} \circ f(x)$\\\
+
+    \textbf{10} Zeigen Sie mittels Wahrheitstabelle, dass die Aussageformeln $F_1(A,B,C) = A \lor (B \land C)$ und $F_2(A,B,C) = (A \lor B) \land (A \lor C)$ äquivalent sind.
+
+\[
+    \begin{array}{ccc|c|c|c|c|c|c|c}
+        A & B & C & B \land C & F_1 & A \lor B & A \lor C & F_2 & F_1 \Leftrightarrow F_2 \\
+        \hline
+        \text{W} & \text{W} & \text{W} & \text{W} & \text{W} & \text{W} & \text{W} & \text{W} & \text{W} \\
+        \text{W} & \text{W} & \text{F} & \text{F} & \text{W} & \text{W} & \text{W} & \text{W} & \text{W} \\
+        \text{W} & \text{F} & \text{W} & \text{F} & \text{W} & \text{W} & \text{W} & \text{W} & \text{W} \\
+        \text{W} & \text{F} & \text{F} & \text{F} & \text{W} & \text{W} & \text{W} & \text{W} & \text{W} \\
+        \text{F} & \text{W} & \text{W} & \text{W} & \text{W} & \text{W} & \text{W} & \text{W} & \text{W} \\
+        \text{F} & \text{W} & \text{F} & \text{F} & \text{F} & \text{W} & \text{F} & \text{F} & \text{W} \\
+        \text{F} & \text{F} & \text{W} & \text{F} & \text{F} & \text{F} & \text{W} & \text{F} & \text{W} \\
+        \text{F} & \text{F} & \text{F} & \text{F} & \text{F} & \text{F} & \text{F} & \text{F} & \text{W} \\
+    \end{array}
+\]
+
+\section{Test3, Gruppe 2}\label{sec:test3-gruppe-2}
+    \textbf{1} Wie wird eine binäre Relation $( R_1 \subset M \times M )$ auf der Menge ( M ) genannt im Gegensatz zu einer Relation $( R_2 \subset N_1 \times N_2 )$ mit $( N_1 \neq N_2 )$?\\
+    {\itshape Homogene Relation}\\
+
+    \textbf{2} Was muss eine Relation $ R \subset X \times Y $ erfüllen, um rechtstotal zu sein?\\
+    \forall y \in Y , \exists x \in X : (x, y) \in R\\
+
+    \textbf{3} Was muss eine homogene Relation $ R \subset M^2 $ erfüllen, um symmetrisch zu sein?\\
+    \forall x,y \in M gilt: (x,y) \in R \rightarrow (y,x) \in R \\
+
+    \textbf{4} Was muss eine homogene Relation $ R \subset M^2 $ erfüllen, um transitiv zu sein?\\
+    transitiv, wenn für alle x,y,z $\in$ M gilt: (x,y) $\in$ R und (y,z) $\in$ R \rightarrow (x,z) $\in$ R\\
+
+    \textbf{5} Nennen Sie die Namen der Eigenschaft einer abelschen Gruppe (G, *).\\
+    Kommutativ (macht Gruppe zur Abelsche Gruppe)\\
+    Assoziativ\\
+    Neutrales Element\\
+    Inverses Element\\
+    Total\\
+
+    \textbf{6} Was ist $S_n$ und wie ist es definiert?\\
+    Menge aller Permutationen von {1,\ldots, n}\\
+
+    \textbf{7} Sei $M = {0,1,2,3}$. Bauen Sie eine Relation $R \subset M \times M$, sodass Ihre Relation {\itshape reflexiv} ist.\\
+\begin{tabular}{c|cccc}
+    & 0 & 1 & 2 & 3 \\
+    \hline
+    0 & 0,0 & & & \\
+    1 & & 1,1 & & \\
+    2 & & & 2,2 & \\
+    3 & & & & 3,3 \\
+\end{tabular}\\
+R \coloneqq {(0,0) (1,1) (2,2) (3,3)}\\
+
+
+    \textbf{8} Seien $ M = \{0,-1,-2,-3,-4,-5\} $, $ N = \{0,1,2,3,4,5\} $ Mengen und
+    \[ R = \{(0,0),(-1,1),(0,2),(-3,3),(0,4),(-5,5)\} \subset M \times N \]
+    eine Relation. Kann $ R $ dann auch der Graph einer Funktion sein? Falls ja, wie lautet dann die Definition der Funktion, und falls nein, warum nicht?\\\\
+    Nein, da ein x Wert mehreren y Werten zugeschrieben wird, gilt keine Linkstotalität und somit ist R keine Funktion. Und da R keine Funktion ist kann auch kein Graph abgebildet werden.\\
+
+    \textbf{9} Gegeben sind die beiden Permutationen $\sigma_{1} = \begin{pmatrix} 1 & 2 & 3 \\ 3 & 1 & 2 \end{pmatrix}$ und $\sigma_{2} = \begin{pmatrix} 1 & 2 & 3 \\ 3 & 2 & 1 \end{pmatrix}$ aus der Gruppe $ (S_3, \circ) $. Berechnen Sie (a) $\sigma_{1} \circ \sigma_{2}$, (b) $\sigma_{2} \circ \sigma_{1}$ sowie (c) $(\sigma_{1})^{-1}$ und (d) $(\sigma_{2})^{-1}$.
+\textbf{9} Gegeben sind die beiden Permutationen $\sigma_{1} = \begin{pmatrix} 1 & 2 & 3 \\ 3 & 1 & 2 \end{pmatrix}$ und $\sigma_{2} = \begin{pmatrix} 1 & 2 & 3 \\ 3 & 2 & 1 \end{pmatrix}$ aus der Gruppe $ (S_3, \circ) $. Berechnen Sie
+\\\\\\
+(a) $\sigma_{1} \circ \sigma_{2}$:
+    \[
+        \begin{pmatrix}
+            1 & 2 & 3 \\
+            3 & 2 & 1 \\
+        \end{pmatrix}
+        \circ
+        \begin{pmatrix}
+            1 & 2 & 3 \\
+            3 & 1 & 2 \\
+        \end{pmatrix}
+        =
+        \begin{pmatrix}
+            1 & 2 & 3 \\
+            2 & 1 & 3 \\
+        \end{pmatrix}
+    \]
+
+
+(b) $\sigma_{2} \circ \sigma_{1}$:
+
+    \[
+        \begin{pmatrix}
+            1 & 2 & 3 \\
+            3 & 1 & 2 \\
+        \end{pmatrix}
+        \circ
+        \begin{pmatrix}
+            1 & 2 & 3 \\
+            3 & 2 & 1 \\
+        \end{pmatrix}
+        =
+        \begin{pmatrix}
+            1 & 2 & 3 \\
+            1 & 3 & 2 \\
+        \end{pmatrix}
+    \]
+
+(c) $(\sigma_{1})^{-1}$:
+
+\[
+    (\sigma_{1})^{-1} = \begin{pmatrix} 1 & 2 & 3 \\ 2 & 3 & 1 \end{pmatrix}
+\]
+
+(d) $(\sigma_{2})^{-1}$:
+
+\[
+    (\sigma_{2})^{-1} = \begin{pmatrix} 1 & 2 & 3 \\ 1 & 2 & 3 \end{pmatrix}
+\]
+
+
+\textbf{10} Zeigen Sie mittels folgender Wahrheitstabelle, dass die Aussageformeln $F_1(A,B,C) = A \Rightarrow (B \lor C)$ und $F_2(A,B,C) = \neg(A \land \neg(B \lor C))$ äquivalent sind.
+
+\[
+    \begin{array}{ccc|c|c|c|c|c|c}
+        A & B & C & B \lor C & F_1 & \neg(B \lor C) & A \land \neg(B \lor C) & F_2 & F_1 \Leftrightarrow F_2 \\
+        \hline
+        W & W & W & W & W & F & F & W & W \\
+        W & W & F & W & W & F & F & W & W \\
+        W & F & W & W & W & F & F & W & W \\
+        W & F & F & F & F & W & W & W & W \\
+        F & W & W & W & W & F & F & F & W \\
+        F & W & F & W & W & F & F & W & W \\
+        F & F & W & W & W & F & F & W & W \\
+        F & F & F & F & W & W & F & W & W \\
+    \end{array}
+\]
+
+\section{Test4, Gruppe 2}\label{sec:test4-gruppe-2}
+
+    \textbf{1} Sei $(K, \oplus, \odot)$ ein Körper und sei $k \in K_0 \coloneqq K \setminus \{0\}$. Wie bezeichnen / schreiben wir allgemein das Inverse von $k$ bezüglich der Verknüpfung $\odot$?\\
+    $k^{-1}$\\
+
+    \textbf{2} Sei $(K, \oplus, \odot)$ ein Körper und sei $k \in K$. Wie bezeichnen oder schreiben wir allgemein das Inverse von $k$ bezüglich der Verknüpfung $\oplus$?\\
+    $-k$\\
+
+    \textbf{3} Unter welcher Bedingung ist der Restklassenring $\mathbb{Z}_m$ ein Körper?\\
+    Wenn $m \in \mathbb{P}$\\
+
+    \textbf{4} (a) Aus welchen drei Abschnitten besteht ein Induktions-Beweis? (b) Skizzieren Sie was in jedem der Abschnitte passiert.\\\\
+    \textbf{Induktionsanfang}: Einsetzen des (i.d.R.) kleinsten Wertes für die Variable, zeigen dass Beide Seiten gleich sind. $n \in M$ : (bewiesene Gleichung, also es existiert EIN Element für dass das gilt)\\
+    \textbf{Induktionsannahme}: Gleichung as der Aufgabenstellung\\
+    \textbf{Induktionsschritt}: $N \rightarrow N+1\\$
+    
+    \textbf{5} Wie lautet die \textbf{Gaußsche Summenformel} (Inklusive Vorbedingungen)?\\
+    $\sum\limits_{v=1}^{n} v = $\frac{n \cdot (n+1)}{2}$$\\
+
+    \textbf{6} Wie lautet der \textbf{binomische Satz} für $ a, b \in \mathbb{R} $ und $ n \in \mathbb{N}_0 $?\\
+    $(a+b)^n = \sum\limits_{v=0}^{n} \binom{n}{v} a^v b^{n-v}$\\
+
+    \textbf{7} Gegeben sei der endliche Restklassenkörper $(\mathbb{Z}_5, +, \cdot)$. Geben Sie die Inversen der Multiplikation ($\cdot$) an (soweit diese existieren). (Ergebnisse in Standardrepräsentanten)\\
+    $[1]_5 \cdot ([1]_5)^{-1} = 1$\\
+    $[2]_5 \cdot ([3]_5)^{-1} = 1$\\
+    $[3]_5 \cdot ([2]_5)^{-1} = 1$\\
+    $[4]_5 \cdot ([4]_5)^{-1} = 1$\\
+
+    \textbf{8} \[
+                   \begin{gathered}
+                       \text{Berechnen Sie das folgende:} \\
+                       \left([4]_{11}\right)^{-1} + \left([5]_{11}\right)^{-1} \cdot [-10]_{11}
+                   \end{gathered}
+    \]\\
+    $[3]_{11}+[9]_{11}\cdot[1]_{11} = [12]_{11} = [1]_{11}$\\
+
+    \textbf{9} Berechnen Sie $\binom{6}{4}$:
+
+    \[
+        \binom{6}{4} = \frac{6!}{4!(6-4)!} = \frac{6 \times 5 \times 4 \times 3 \times 2 \times 1}{4 \times 3 \times 2 \times 1 \times 2 \times 1} = \frac{720}{24 \cdot 2} = 15
+    \]\\
+
+
+    \textbf{10} (c) Wie viele Mögliche sechsstellige Matrikelnummern gibt es im Dezimalsystem (Bestehend aus den Ziffern {0,1,2,3,4,5,6,7,8,9})? (Ziehen (a) mit/ohne Zurücklegen, (b) mit/ohne Beachtung der Reihenfolge?)\\
+    $n = 10$\\
+    $k = 6$
+    $n^{k}$ = $10^{6}$ = $1.000.000$
+
+\section{Test5, Gruppe 2}\label{sec:test5-gruppe-2}
+
+
+    \textbf{1} Wie ist die Menge der komplexen Zahlen ($\mathbb{C}$) mittels der reellen Zahlen ($\mathbb{R}$) definiert?\\
+    $C \coloneqq \{ a + ib : a \in \mathbb{R}, b \in \mathbb{R} \}$\\
+
+    \textbf{2} Sei $ z = a + ib \in \mathbb{C} $, $ a,b \in \mathbb{R} $ eine komplexe Zahl. Wie sind $ \text{Re}(z) $ und $ \text{Im}(z) $ definiert?\\
+    $Re(z) \coloneqq a$\\
+    $Im(z) \coloneqq b$\\
+
+    \textbf{3} Wie ist die \textbf{Multiplikation} zweier komplexer Zahlen $ z = a + ib, w = c + id \in \mathbb{C} $, $ a,b,c,d \in \mathbb{R} $ definiert? $ z \cdot w = \ldots $\\
+    $z \cdot w \coloneqq (a + ib)$  \cdot  $(c + id)$\\
+
+    \textbf{4} Wie ist der \textbf{Betrag} einer komplexen Zahl $ z = a + ib \in \mathbb{C} $, $ a,b \in \mathbb{R} $ definiert?\\
+    $\rvert z\rvert \coloneqq \sqrt{a^2 + b^2}$\\
+
+    \textbf{5} Welchen Grad hat das folgende Polynom? $f(z) = \left(z^2 - z + \frac{1}{4}\right)(z - (1 - i))^2$\\
+    4. Grad\\
+
+    \textbf{6} Betrachten Sie das folgende Polynom $f(z) = z^7 - 15z^6 + 97z^5 - 375z^4 + 1103z^3 - 2305z^2 + 2799z - 1305$ mit den Nullstellen $n_0 = 1$, $n_1 = i3$, $n_3 = 2 - i$, $n_5 = 5 + i2$. Geben Sie die fehlenden Nullstellen $n_2$, $n_4$ und $n_6$ an.\\\\
+    Überall das komplex konjugierte bilden. (alle Vorzeichen von $i$ invertieren)\\
+    $n_2 = -i3$\\
+    $n_4 = 2+i$\\
+    $n_6 = 5-i2$\\
+
+    \textbf{7} Vervollständigen Sie:
+    (Fundamentalsatz der Algebra und Faktorisierungssatz) Es sei
+    $ P(z) = \sum_{v=0}^{d} a_v z $
+    ein Polynom vom Grad > 0. Dann existieren $ z_1, \dots, z_k \in \mathbb{C} $ und zugehörige $ \alpha_1, \dots, \alpha_k \in \mathbb{N} $, so dass
+    $ P(z) = a_d (z-z_1)^{\alpha_1} (z-z_2)^{\alpha_2} \cdot\dots \cdot(z-z_k)^{\alpha_k} $
+    gilt, dabei ist $ \alpha_1 + \alpha_2 + \dots + \alpha_k = d $.\\
+
+    \textbf{8} Wie lautet die allgemeine Formel für eine Kreisscheibe mir Radius $r$ und Mittelpunkt $a + ib$ in der Komplexen-Ebene?\\
+    $\{z \in \mathbb{C}: |z-(a+ib)| \leq r\}$\\
+
+    \textbf{9} Zeichnen Sie die folgende Menge in der komplexen Ebene:
+    \[ M \coloneqq \{ z \in \mathbb{C} : \text{Re}(z) \geq -\frac{5}{2} \land \text{Im}(z) < \frac{\pi}{2} \} \]\\
+    Lösung in Arbeit\\
+
+    \textbf{10} Beschreiben Sie die im Folgenden skizzierte Menge mittels der Mengenschreibweise.\\
+    Lösung in Arbeit\\
+
+\end{document}
